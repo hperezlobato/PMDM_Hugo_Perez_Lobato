@@ -6,7 +6,10 @@ void main(){
     	home: Scaffold(
         	 	 appBar: AppBar(
             	     		title: Center(
-                	    		child: Text ('Barra superior'),
+                	    		child: Text (
+                            'Barra superior',
+                             textDirection: TextDirection.ltr
+                             ),
             	     		),
         	     	 ),
         	      	body: Center(
