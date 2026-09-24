@@ -1,17 +1,17 @@
 # Flutter_Hugo_Perez_Lobato
 
-A new Flutter project.
+Proyecto de ejemplo creado con Flutter.
 
-## Getting Started
+## Primeros pasos
 
-This project is a starting point for a Flutter application.
+Este proyecto sirve como punto de partida para una aplicación Flutter.
 
-A few resources to get you started if this is your first Flutter project:
+Si es tu primer proyecto Flutter, estos recursos pueden ayudarte:
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- [Aprender Flutter](https://docs.flutter.dev/get-started/learn-flutter)
+- [Escribir tu primera aplicación Flutter](https://docs.flutter.dev/get-started/codelab)
+- [Recursos para aprender Flutter](https://docs.flutter.dev/reference/learning-resources)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Para obtener ayuda con el desarrollo en Flutter, consulta la
+[documentación oficial](https://docs.flutter.dev/), donde encontrarás tutoriales,
+ejemplos, orientación sobre el desarrollo móvil y una referencia completa de la API.
