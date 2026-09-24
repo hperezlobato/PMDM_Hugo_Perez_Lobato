@@ -10,7 +10,7 @@ void main(){
             	     		),
         	     	 ),
         	      	body: Center(
-                     		child: Text ('Parte principal'),
+                     		child: Image.asset("assets/images/vertical-stripes.jpg", height: 500),
          	     	),
         	      floatingActionButton: FloatingActionButton(
             	      	child: Icon(Icons.add),
