@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_hugo_perez_lobato/main.dart';
 import 'package:flutter_hugo_perez_lobato/screens/drawer.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class AppEjercicio1 extends StatelessWidget {
   const AppEjercicio1({super.key});
@@ -27,9 +28,9 @@ class AppEjercicio1 extends StatelessWidget {
           children: [
             Text(
               'HUGO PÉREZ LOBATO',
-              style: TextStyle(
+              style: GoogleFonts.craftyGirls(
                 fontWeight: FontWeight.bold,
-                fontSize: 25.0
+                fontSize: 30.0,
               ),
             ),
             TextButton(
