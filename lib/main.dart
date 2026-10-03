@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'screens/drawer.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 
 const miColor = Color.fromARGB(255, 63, 79, 255);
