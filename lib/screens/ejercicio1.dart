@@ -48,7 +48,7 @@ class AppEjercicio1 extends StatelessWidget {
               child: Text(
                 'https://github.com/hperezlobato/PMDM_Hugo_Perez_Lobato',
                 textAlign: TextAlign.center,
-              style: TextStyle(
+              style: GoogleFonts.eduSaBeginner(
                 fontWeight: FontWeight.bold,
                 fontSize: 20.0,
                 color: Colors.black,

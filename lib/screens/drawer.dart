@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
-import 'ejercicio1.dart';
+import 'package:flutter_hugo_perez_lobato/screens/ejercicio1.dart';
+import 'package:flutter_hugo_perez_lobato/screens/ejercicio2.dart';
+import 'package:flutter_hugo_perez_lobato/screens/ejercicio3.dart';
+import 'package:flutter_hugo_perez_lobato/screens/ejercicio4.dart';
+import 'package:flutter_hugo_perez_lobato/screens/ejercicio5.dart';
+
 
 class AppDrawer extends StatelessWidget {
 	const AppDrawer({super.key});
@@ -60,6 +65,86 @@ class AppDrawer extends StatelessWidget {
                 context,
                 MaterialPageRoute(
                   builder: (context) => const AppEjercicio1(),
+                  )
+              );
+            },
+          ),
+          ListTile(
+            title: Center(
+              child: Text(
+                "Ejercicio 2",
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            onTap: (){
+              Navigator.pop(context);
+
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const AppEjercicio2(),
+                  )
+              );
+            },
+          ),
+          ListTile(
+            title: Center(
+              child: Text(
+                "Ejercicio 3",
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            onTap: (){
+              Navigator.pop(context);
+
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const AppEjercicio3(),
+                  )
+              );
+            },
+          ),
+          ListTile(
+            title: Center(
+              child: Text(
+                "Ejercicio 4",
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            onTap: (){
+              Navigator.pop(context);
+
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const AppEjercicio4(),
+                  )
+              );
+            },
+          ),
+          ListTile(
+            title: Center(
+              child: Text(
+                "Ejercicio 5",
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            onTap: (){
+              Navigator.pop(context);
+
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const AppEjercicio5(),
                   )
               );
             },
