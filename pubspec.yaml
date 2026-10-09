@@ -71,6 +71,7 @@ flutter:
     - assets/images/perro3.jpg
     - assets/images/perro4.jpg
     - assets/images/perro5.jpg
+    - assets/images/paisajeEj7.jpg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
 
