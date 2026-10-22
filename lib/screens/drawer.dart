@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_hugo_perez_lobato/screens/ejercicio1.dart';
-import 'package:flutter_hugo_perez_lobato/screens/ejercicio2.dart';
-import 'package:flutter_hugo_perez_lobato/screens/ejercicio3.dart';
-import 'package:flutter_hugo_perez_lobato/screens/ejercicio4.dart';
-import 'package:flutter_hugo_perez_lobato/screens/ejercicio5.dart';
-import 'package:flutter_hugo_perez_lobato/screens/ejercicio6.dart';
-import 'package:flutter_hugo_perez_lobato/screens/ejercicio7.dart';
-import 'package:flutter_hugo_perez_lobato/screens/ejercicio8.dart';
-import 'package:flutter_hugo_perez_lobato/screens/ejercicio9.dart';
+import 'package:flutter_hugo_perez_lobato/screens/ejercicio01.dart';
+import 'package:flutter_hugo_perez_lobato/screens/ejercicio02.dart';
+import 'package:flutter_hugo_perez_lobato/screens/ejercicio03.dart';
+import 'package:flutter_hugo_perez_lobato/screens/ejercicio04.dart';
+import 'package:flutter_hugo_perez_lobato/screens/ejercicio05.dart';
+import 'package:flutter_hugo_perez_lobato/screens/ejercicio06.dart';
+import 'package:flutter_hugo_perez_lobato/screens/ejercicio07.dart';
+import 'package:flutter_hugo_perez_lobato/screens/ejercicio08.dart';
+import 'package:flutter_hugo_perez_lobato/screens/ejercicio09.dart';
+import 'package:flutter_hugo_perez_lobato/screens/ejercicio10.dart';
 
 
 class AppDrawer extends StatelessWidget {
@@ -229,6 +230,26 @@ class AppDrawer extends StatelessWidget {
                 context,
                 MaterialPageRoute(
                   builder: (context) => const AppEjercicio9(),
+                  )
+              );
+            },
+          ),
+          ListTile(
+            title: Center(
+              child: Text(
+                "Ejercicio 10",
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            onTap: (){
+              Navigator.pop(context);
+
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const AppEjercicio10(),
                   )
               );
             },
