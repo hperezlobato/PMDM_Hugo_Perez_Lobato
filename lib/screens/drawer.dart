@@ -9,6 +9,7 @@ import 'package:flutter_hugo_perez_lobato/screens/ejercicio07.dart';
 import 'package:flutter_hugo_perez_lobato/screens/ejercicio08.dart';
 import 'package:flutter_hugo_perez_lobato/screens/ejercicio09.dart';
 import 'package:flutter_hugo_perez_lobato/screens/ejercicio10.dart';
+import 'package:flutter_hugo_perez_lobato/screens/ejercicio11.dart';
 
 
 class AppDrawer extends StatelessWidget {
@@ -250,6 +251,26 @@ class AppDrawer extends StatelessWidget {
                 context,
                 MaterialPageRoute(
                   builder: (context) => const AppEjercicio10(),
+                  )
+              );
+            },
+          ),
+          ListTile(
+            title: Center(
+              child: Text(
+                "Ejercicio 11",
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            onTap: (){
+              Navigator.pop(context);
+
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const AppEjercicio11(),
                   )
               );
             },

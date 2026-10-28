@@ -24,7 +24,7 @@ class _AppEjercicio10State extends State<AppEjercicio10> {
       counter--;
     });
   }
-
+ 
   void resetCounter(){
     setState(() {
       counter = 0;
