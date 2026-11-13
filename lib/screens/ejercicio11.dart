@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_hugo_perez_lobato/main.dart';
 import 'package:flutter_hugo_perez_lobato/screens/drawer.dart';
 import 'package:flutter_hugo_perez_lobato/widgets/instagramPictureRow.dart';
+import 'package:flutter_hugo_perez_lobato/widgets/instagramPostsSection.dart';
 import 'package:flutter_hugo_perez_lobato/widgets/instagramProfileDescription.dart';
 import 'package:flutter_hugo_perez_lobato/widgets/instagramStoriesSection.dart';
 import 'package:flutter_hugo_perez_lobato/widgets/topInstagramViewWidget.dart';
@@ -36,6 +37,7 @@ class AppEjercicio11 extends StatelessWidget {
                   InstagramPictureRow(),
                   Instagramprofiledescription(),
                   InstagramStoriesSection(),
+                  InstagramPostsSection()
                 ],
               ),
             ),
