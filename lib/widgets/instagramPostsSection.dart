@@ -8,7 +8,97 @@ class InstagramPostsSection extends StatelessWidget {
     return Column(
       children: [
         Row(
-          
+          children: [
+            Expanded(
+              child: AspectRatio(
+                aspectRatio: 1,
+                child: Container(
+                  margin: EdgeInsets.all(3),
+                  color: Colors.yellow,
+                ),
+              )
+            ),
+            Expanded(
+              child: AspectRatio(
+                aspectRatio: 1,
+                child: Container(
+                  margin: EdgeInsets.all(3),
+                  color: Colors.red,
+                ),
+              )
+            ),
+            Expanded(
+              child: AspectRatio(
+                aspectRatio: 1,
+                child: Container(
+                  margin: EdgeInsets.all(3),
+                  color: Colors.black,
+                ),
+              )
+            ),
+          ],
+        ),
+        Row(
+          children: [
+            Expanded(
+              child: AspectRatio(
+                aspectRatio: 1,
+                child: Container(
+                  margin: EdgeInsets.all(3),
+                  color: Colors.blue,
+                ),
+              )
+            ),
+            Expanded(
+              child: AspectRatio(
+                aspectRatio: 1,
+                child: Container(
+                  margin: EdgeInsets.all(3),
+                  color: Colors.yellow,
+                ),
+              )
+            ),
+            Expanded(
+              child: AspectRatio(
+                aspectRatio: 1,
+                child: Container(
+                  margin: EdgeInsets.all(3),
+                  color: Colors.red,
+                ),
+              )
+            ),
+          ],
+        ),
+        Row(
+          children: [
+            Expanded(
+              child: AspectRatio(
+                aspectRatio: 1,
+                child: Container(
+                  margin: EdgeInsets.all(3),
+                  color: Colors.lightBlue,
+                ),
+              )
+            ),
+            Expanded(
+              child: AspectRatio(
+                aspectRatio: 1,
+                child: Container(
+                  margin: EdgeInsets.all(3),
+                  color: Colors.pink,
+                ),
+              )
+            ),
+            Expanded(
+              child: AspectRatio(
+                aspectRatio: 1,
+                child: Container(
+                  margin: EdgeInsets.all(3),
+                  color: Colors.green,
+                ),
+              )
+            ),
+          ],
         ),
       ],
     );
